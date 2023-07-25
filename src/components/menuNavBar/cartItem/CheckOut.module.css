@@ -1,0 +1,26 @@
+.checkOutBtn {
+  width: 100%;
+  font-size: 22.4px;
+  cursor: pointer;
+  border: none;
+  background-color: #457076;
+  color: white;
+  padding: 14.4px 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.checkOutBtn:hover {
+  background-color: #395d62;
+}
+
+.checkOutBtn:active {
+  background-color: #457076;
+}
+
+.btnContainer {
+  text-decoration: none;
+}

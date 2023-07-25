@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.description {
+  display: block;
+}
+
+.description img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.description_content {
+  display: block;
+  margin-left: 0rem;
+  padding: 0px;
+}
+.description p {
+  margin-bottom: 2rem;
+}
+.description button {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 823px) {
+  .container {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    margin-top: 13rem;
+  }
+}

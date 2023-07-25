@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* @media (min-width: 974px) and (max-width: 1415px) {
+  html {
+    font-size: 12px;
+  }
+} */
+
+@media (max-width: 275px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+@media (min-width: 276px) and (max-width: 357px) {
+  html {
+    font-size: 5.7px;
+  }
+}
+
+@media (min-width: 358px) and (max-width: 430px) {
+  html {
+    font-size: 7.2px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 544px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 545px) and (max-width: 823px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 824px) and (max-width: 998px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 999px) and (max-width: 1415px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+body {
+  margin: 0;
+}

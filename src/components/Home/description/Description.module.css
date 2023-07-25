@@ -1,0 +1,99 @@
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(233, 233, 233, 0.341);
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3rem 7rem;
+  color: rgb(97, 97, 97);
+}
+
+.hr {
+  margin-top: 4rem;
+  border-style: solid;
+  color: rgb(236, 236, 236);
+  width: 90%;
+}
+
+.description img {
+  width: 45%;
+}
+
+.description_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 2.6rem;
+  padding: 0px 2.4rem;
+}
+
+.description a {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #0000006f;
+  color: white;
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2px;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: rgb(60, 60, 60);
+}
+.description p {
+  font-size: 1.2rem;
+  margin-bottom: 3.4rem;
+}
+
+.shopNow {
+  color: white;
+  text-decoration: none;
+}
+
+.description a:hover {
+  background-color: #0f0f0fa2;
+}
+
+@media (min-width: 1416px) {
+  .description {
+    width: 100rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .description {
+    display: block;
+  }
+
+  .description img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .description_content {
+    display: block;
+    margin-left: 0rem;
+    padding: 0px;
+  }
+  .description p {
+    margin-bottom: 2rem;
+  }
+  .description a {
+    font-size: 1.7rem;
+  }
+}

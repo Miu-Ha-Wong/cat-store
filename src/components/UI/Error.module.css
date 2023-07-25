@@ -1,0 +1,74 @@
+.errorContainer {
+  height: 70vh;
+  color: rgb(99, 99, 99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.catImg {
+  width: 18rem;
+  margin-left: 1.7rem;
+}
+
+.content {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.btnContainer {
+  text-decoration: none;
+}
+
+.shopBtn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background-color: #457076;
+  color: white;
+  padding: 0.9rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.shopBtn:hover {
+  background-color: #395d62;
+}
+
+.shopBtn:active {
+  background-color: #457076;
+}
+
+@media (max-width: 545px) {
+  .title {
+    font-size: 5.5rem;
+  }
+
+  .catImg {
+    width: 20rem;
+  }
+
+  .content {
+    font-size: 3rem;
+  }
+
+  .shopBtn {
+    font-size: 1.8rem;
+
+    padding: 1.5rem 3rem;
+  }
+}

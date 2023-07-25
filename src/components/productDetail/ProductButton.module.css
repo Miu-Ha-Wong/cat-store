@@ -1,0 +1,67 @@
+.btnContainer {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.addRemoveContainer {
+  margin-right: 0.8rem;
+  display: flex;
+}
+
+.addBtn,
+.removeBtn,
+.numBtn {
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(238, 238, 238);
+  width: 3rem;
+  padding: 1rem;
+}
+
+.removeBtn {
+  border-left: none;
+  cursor: pointer;
+}
+
+.addBtn {
+  border-right: none;
+  cursor: pointer;
+}
+
+.numBtn {
+  border-right: none;
+  border-left: none;
+}
+
+.addToCartBtn {
+  font-size: 1rem;
+  border: none;
+  background-color: #0077b6;
+  color: white;
+  width: 10rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.addToCartBtn:hover {
+  background-color: #00679e;
+}
+.addToCartBtn:active {
+  background-color: #007cc0;
+}
+
+@media (max-width: 823px) {
+  .addBtn,
+  .removeBtn,
+  .numBtn {
+    font-size: 2rem;
+    width: 6rem;
+    padding: 2rem;
+  }
+  .addToCartBtn {
+    font-size: 1.8rem;
+    width: 20rem;
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,117 @@
+.featureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(236, 236, 236);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 0 2rem;
+  margin-bottom: 3.8rem;
+}
+
+.diverse,
+.safety,
+.interaction {
+  background-color: rgba(237, 237, 237, 0.649);
+  padding: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.124);
+  margin-top: -5rem;
+  margin-bottom: 1.9rem;
+  animation: slide-down 0.7s ease-out forwards;
+  z-index: 5;
+}
+
+.safety {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.imgs {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.724);
+  color: rgb(61, 61, 61);
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.overlay:hover {
+  opacity: 1;
+  backdrop-filter: blur(2px);
+}
+
+.overlay:hover > * {
+  animation: show 0.7s ease-out forwards;
+}
+
+@keyframes show {
+  from {
+    transform: translateY(-1rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.featureContainer button {
+  font: inherit;
+  border: none;
+  background-color: #ededed;
+  color: rgb(89, 89, 89);
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1416px) {
+  .centerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 80rem;
+  }
+}

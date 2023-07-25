@@ -1,0 +1,70 @@
+.description {
+  position: absolute;
+  top: 27%;
+  left: 5%;
+  width: 50%;
+  height: 50%;
+  padding: 1rem;
+  border-radius: 14px;
+  z-index: 5;
+  color: rgb(255, 255, 255);
+  animation: description-appear 1s ease-out forwards;
+}
+
+.webTitle {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.webSlogan {
+  font-size: 1.5rem;
+}
+
+@keyframes description-appear {
+  from {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 1416px) {
+  .webSlogan {
+    font-size: 2rem;
+  }
+  .webTitle {
+    font-size: 3rem;
+  }
+  .description {
+    top: 30%;
+  }
+}
+
+@media (max-width: 823px) {
+  .webSlogan {
+    font-size: 1.6rem;
+  }
+  .webTitle {
+    font-size: 2.2rem;
+  }
+  .description {
+    top: 20%;
+  }
+}
+
+@media (max-width: 430px) {
+  .webSlogan {
+    font-size: 1.2rem;
+  }
+  .webTitle {
+    font-size: 2.2rem;
+  }
+  .description {
+    top: 15%;
+  }
+}

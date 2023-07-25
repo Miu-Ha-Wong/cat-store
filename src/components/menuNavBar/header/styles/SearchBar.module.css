@@ -1,0 +1,87 @@
+.searchBar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 9rem;
+  background-color: #ffffff;
+  color: rgb(57, 57, 57);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 20;
+  animation: cart-appear 0.25s ease-out forwards;
+}
+
+.searchBarInput {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  background-color: #fbfbfb;
+  color: #333;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.searchBarInput::placeholder {
+  color: #999;
+}
+
+.searchBarInput:focus {
+  outline: none;
+  box-shadow: 0 0 2px rgba(85, 85, 85, 0.5);
+}
+
+.searchIcon {
+  font-size: 1.5rem;
+}
+
+.closeBtn {
+  font-size: 2rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.303);
+  animation: overlay-appear 0.25s ease-out forwards;
+}
+
+@media (max-width: 430px) {
+  .searchBar {
+    height: 14rem;
+  }
+}
+
+@keyframes overlay-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cart-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

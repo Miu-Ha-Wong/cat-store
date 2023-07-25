@@ -1,0 +1,38 @@
+.container {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 4.2rem;
+  background-color: #ffffff;
+  color: rgb(57, 57, 57);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.shopName {
+  width: 6rem;
+  cursor: pointer;
+}
+
+@media (max-width: 823px) {
+  .container {
+    height: 9rem;
+  }
+  .shopName {
+    width: 13rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    height: 14rem;
+  }
+  .shopName {
+    width: 14rem;
+  }
+}

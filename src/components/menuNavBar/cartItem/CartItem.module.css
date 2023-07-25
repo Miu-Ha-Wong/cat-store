@@ -1,0 +1,87 @@
+.itemContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 28.8px;
+  border-bottom: 1px dotted rgb(211, 211, 211);
+}
+.itemDescription {
+  width: 100%;
+}
+
+.itemImg {
+  width: 88px;
+  margin-right: 19.2px;
+}
+
+.itemName {
+  font-size: 17px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: rgb(48, 48, 48);
+  text-decoration: none;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.itemPrice {
+  margin-bottom: 12px;
+}
+
+.itemQuantity {
+  font-size: 17.6px;
+  margin-bottom: 12px;
+  color: rgb(168, 168, 168);
+}
+
+.deleteBtn,
+.addBtn,
+.numBtn {
+  border: 1px solid rgb(185, 185, 185);
+  background-color: white;
+  padding: 6.4px 9.6px;
+
+  font-weight: bold;
+}
+.addBtn {
+  border-left: none;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  border-right: none;
+  cursor: pointer;
+}
+
+.numBtn {
+  border-right: none;
+  border-left: none;
+}
+
+.deleteContainer {
+  display: flex;
+  justify-content: end;
+  padding-right: 3.5rem;
+  font-size: 16px;
+}
+
+.delete {
+  cursor: pointer;
+  color: rgb(147, 147, 147);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.delete:hover {
+  color: rgb(118, 118, 118);
+}
+
+.itemContainer:hover .delete {
+  opacity: 1;
+}

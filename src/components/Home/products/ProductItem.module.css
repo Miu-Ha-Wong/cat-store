@@ -1,0 +1,132 @@
+.productCard {
+  margin: 2rem 0.2rem;
+  background-color: rgb(246, 246, 246);
+  padding: 1.1rem;
+  width: 17rem;
+  flex-basis: 22%;
+  color: rgb(57, 57, 57);
+}
+
+.name {
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  height: 3rem;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.itemImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgs {
+  position: relative;
+}
+
+.cartIconContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.cartIcon {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.25s;
+  font-size: 1.5rem;
+  color: rgb(124, 124, 124);
+  transition: 0.15s;
+}
+
+.cartIcon:hover {
+  color: rgb(79, 79, 79);
+}
+
+.addToCartIconContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.productCard:hover .cartIcon {
+  opacity: 1;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.overlayImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.view {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(57, 57, 57, 0.68);
+  color: white;
+  cursor: pointer;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+@media (max-width: 545px) {
+  .productCard {
+    flex-basis: 40%;
+    font-size: 1.7rem;
+  }
+
+  .priceIconContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .price {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .name {
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    height: 5rem;
+  }
+  .cartIcon {
+    font-size: 3rem;
+  }
+
+  .cartIconContainer {
+    padding: 1rem;
+  }
+
+  .cartIcon {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 545px) and (max-width: 823px) {
+  .productCard {
+    flex-basis: 27%;
+  }
+}
+
+@media (max-width: 430px) {
+  .name {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
