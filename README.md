@@ -9,7 +9,20 @@ As an online branch of a dedicated cat supplies store, we prioritize a pleasant 
 
 
 ## Tech Stack
+![science](https://github.com/Miu-Ha-Wong/cat-store/assets/140452700/0dd97764-a3f3-4c8e-80ad-8782853c4d4f)
+![redux](https://github.com/Miu-Ha-Wong/cat-store/assets/140452700/be6704b7-9858-4e58-9edb-991a461d9166)
+![css1](https://github.com/Miu-Ha-Wong/cat-store/assets/140452700/b934d745-21e2-4db5-a297-be403f4cc368)
 
-React, CSS, React Router, Redux
+React | Redux | CSS | React Router
 
 
+## Demo
+![cat-web-gif4](https://github.com/Miu-Ha-Wong/cat-store/assets/140452700/a81f9546-c50f-4484-aa1b-7710ccfd4d7b)
+
+
+## Getting Started
+Download the folder
+
+```bash
+  npm start
+```
