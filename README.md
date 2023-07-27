@@ -1,11 +1,9 @@
-# cat-store
-
-
 # eCommerce Website: CAT STORE 
 
-Welcome to our Cat Supplies Shopping Website! 🐱 Designed exclusively for cat lovers, our site is filled with adorable cat images, creating a delightful atmosphere. The visually appealing UI, clear categorization, and powerful search function make finding your desired products easy and enjoyable. 
 
-As an online branch of a dedicated cat supplies store, we prioritize a pleasant shopping experience, ensuring everything you need to enrich your beloved cats' lives. Thank you for visiting, and I'm excited to serve you and your furry companions with a delightful shopping journey! 🛍️🐾
+
+This is a Cat Supplies Shopping Website!🐱 Designed exclusively for cat lovers, the site is filled with adorable cat images, creating a delightful atmosphere.🛍️🐾
+
 
 
 ## Tech Stack
@@ -16,13 +14,61 @@ As an online branch of a dedicated cat supplies store, we prioritize a pleasant 
 React | Redux | CSS | React Router
 
 
+
 ## Demo
 ![cat-web-gif4](https://github.com/Miu-Ha-Wong/cat-store/assets/140452700/a81f9546-c50f-4484-aa1b-7710ccfd4d7b)
 
 
-## Getting Started
-Download the folder
 
-```bash
+## Features
+
+
+- Beautiful UI design for a delightful shopping experience.
+- Smooth user experience with seamless page transitions using React and React Router.
+- Powerful search functionality for easy discovery of cat supplies.
+- Product categorization and filtering options for quick exploration.
+- Price sorting feature (high to low and low to high) for - personalized product arrangement.
+- Shopping cart allowing quick item additions.
+- Instant price calculation for a clear cost overview.
+- Responsive design for user-friendly display on different devices.
+
+
+
+## Getting Started
+
+
+1. Clone the Cat-Store project to your local environment:
+   
+  ```bash
+  git clone https://github.com/your-username/your-repo.git
+  ```
+
+
+2. Install the required dependencies:
+   
+  ```bash
+  npm install
+  ```
+
+
+3. Run the project:
+   
+  ```bash
   npm start
-```
+  ```
+
+
+4. Open your web browser and go to http://localhost:3000 to start enjoying the shopping experience!
+
+
+Please update "your-username" and "your-repo" with your project's actual GitHub username and repository name.
+
+
+
+## Contact Information
+
+
+If you have any questions, suggestions, or collaboration requests, feel free to reach out to me:
+
+Email: wmh0226@gmail.com
+
