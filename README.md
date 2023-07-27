@@ -16,6 +16,9 @@ React | Redux | CSS | React Router
 
 
 ## Demo
+Link: https://cat-store-ecommerce.netlify.app/
+
+
 ![cat-web-gif4](https://github.com/Miu-Ha-Wong/cat-store/assets/140452700/a81f9546-c50f-4484-aa1b-7710ccfd4d7b)
 
 
