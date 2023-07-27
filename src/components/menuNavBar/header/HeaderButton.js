@@ -59,12 +59,7 @@ const HeaderButton = () => {
           )}
         </div>
       </div>
-      <div className={styles.icon}>
-        <Link to="/account">
-          {" "}
-          <FontAwesomeIcon icon={faUser} />
-        </Link>
-      </div>
+
       <div onClick={showMenuHandler} className={styles.menuIcon}>
         <FontAwesomeIcon icon={faBars} />
       </div>
